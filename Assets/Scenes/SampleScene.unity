@@ -241,6 +241,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleMultiplier: 1.1
   scaleDuration: 0.5
+  buttons:
+  - {fileID: 1747754561}
+  - {fileID: 1783318338}
+  - {fileID: 1710687989}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,8 +4,8 @@ using UnityEngine.EventSystems;
 
 public class ButtonController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public static event Action<Transform> PointerEnter;
-    public static event Action<Transform> PointerExit;
+    public event Action<Transform> PointerEnter;
+    public event Action<Transform> PointerExit;
     
     public void OnPointerEnter(PointerEventData eventData)
     {
